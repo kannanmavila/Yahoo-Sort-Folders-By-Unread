@@ -1,7 +1,7 @@
-![screenshot did not load](https://i.ibb.co/rpv4t4S/Screen-Shot-2021-05-24-at-11-48-23-AM.png)
+![screenshot did not load](https://i.ibb.co/D8j1p1B/Screen-Shot-2021-05-24-at-12-09-53-PM.png)
 
-# Youtube-1-click-not-interested
-This script provides links below every Youtube thumbnail to mark the video as not-interested or already-watched. Without the script, it takes five clicks to achieve either of these actions: `Ellipsis -> Not Interested -> Tell Us Why -> Checkbox -> Submit`
+# Yahoo! - Sort Folders By Unread
+If you have several folders in your Yahoo! inbox, it is tedious to scroll through them every now and then to see if one has unread emails in it. This script sorts them in the descending order of the number of unread emails. All folders with no unread emails in them are left alone as per the original (alphabetical) order.
 
 ## How To Install
 * Install [Tampermonkey](https://www.tampermonkey.net/) or an equivalent browser script program
