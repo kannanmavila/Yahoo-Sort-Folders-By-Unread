@@ -21,7 +21,7 @@
         const favorite_marker = '⭐ '
 
         function isFavorite(folder) {
-            return favorites.includes(folder.querySelector('[role="heading"]').innerText.toLowerCase().replace('⭐', ''))
+            return favorites.includes(folder.querySelector('[data-test-id="folder-label"]').innerText.toLowerCase().replace('⭐', ''))
         }
 
         function unreadCount(folder) {
@@ -30,9 +30,9 @@
         }
 
         function starFolder(folder) {
-            const folderName = folder.querySelector('[role="heading"]').innerText
+            const folderName = folder.querySelector('[data-test-id="folder-label"]').innerText
             if (folderName.startsWith(favorite_marker)) return
-            folder.querySelector('[role="heading"]').innerText = favorite_marker + folderName
+            folder.querySelector('[data-test-id="folder-label"]').innerText = favorite_marker + folderName
         }
 
         // Remove all folders from the list
