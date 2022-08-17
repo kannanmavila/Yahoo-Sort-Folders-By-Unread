@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         Yahoo! Mail (New) - Sort By Unread
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      2.0
+// @updateURL    https://raw.githubusercontent.com/kannanmavila/yahoo-sort-folders-by-unread/main/script.js
+// @downloadURL  https://raw.githubusercontent.com/kannanmavila/yahoo-sort-folders-by-unread/main/script.js
 // @description  Sort folders in Yahoo! mail by no. of unread messages
 // @author       You
 // @match        https://mail.yahoo.com/*
